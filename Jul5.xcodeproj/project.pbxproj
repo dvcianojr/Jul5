@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61CA5D1159E85710092D386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61CA5D0159E85710092D386 /* UIKit.framework */; };
+		E61CA5D3159E85710092D386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61CA5D2159E85710092D386 /* Foundation.framework */; };
+		E61CA5D5159E85710092D386 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61CA5D4159E85710092D386 /* CoreGraphics.framework */; };
+		E61CA5DB159E85710092D386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E61CA5D9159E85710092D386 /* InfoPlist.strings */; };
+		E61CA5DD159E85710092D386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E61CA5DC159E85710092D386 /* main.m */; };
+		E61CA5E1159E85710092D386 /* Jul5AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E61CA5E0159E85710092D386 /* Jul5AppDelegate.m */; };
+		E68FCC5515A493F6003267B1 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68FCC5415A493F6003267B1 /* MainView.m */; };
+		E68FCC5915A4941A003267B1 /* PicView0.m in Sources */ = {isa = PBXBuildFile; fileRef = E68FCC5815A4941A003267B1 /* PicView0.m */; };
+		E68FCC5C15A4943B003267B1 /* PicView1.m in Sources */ = {isa = PBXBuildFile; fileRef = E68FCC5B15A4943B003267B1 /* PicView1.m */; };
+		E68FCC5F15A4944E003267B1 /* PicView2.m in Sources */ = {isa = PBXBuildFile; fileRef = E68FCC5E15A4944E003267B1 /* PicView2.m */; };
+		E68FCC6415A49972003267B1 /* ButtonClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC6015A49971003267B1 /* ButtonClick.wav */; };
+		E68FCC6515A49972003267B1 /* Kim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC6115A49972003267B1 /* Kim.jpg */; };
+		E68FCC6615A49972003267B1 /* Mike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC6215A49972003267B1 /* Mike.jpg */; };
+		E68FCC6715A49972003267B1 /* MikeAndKim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC6315A49972003267B1 /* MikeAndKim.jpg */; };
+		E68FCC6915A4998F003267B1 /* You're Still The One.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC6815A4998F003267B1 /* You're Still The One.mp3 */; };
+		E68FCC6C15A499C4003267B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68FCC6A15A499C3003267B1 /* AudioToolbox.framework */; };
+		E68FCC6D15A499C4003267B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68FCC6B15A499C4003267B1 /* AVFoundation.framework */; };
+		E68FCC7215A49D7B003267B1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC6E15A49D7B003267B1 /* Icon-72.png */; };
+		E68FCC7315A49D7B003267B1 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC6F15A49D7B003267B1 /* Icon-72@2x.png */; };
+		E68FCC7415A49D7B003267B1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC7015A49D7B003267B1 /* Icon.png */; };
+		E68FCC7515A49D7B003267B1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E68FCC7115A49D7B003267B1 /* Icon@2x.png */; };
+		E6C16A6315A5C22700CDD8C8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C16A6115A5C22700CDD8C8 /* Default.png */; };
+		E6C16A6415A5C22700CDD8C8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C16A6215A5C22700CDD8C8 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E61CA5CC159E85710092D386 /* Jul5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jul5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61CA5D0159E85710092D386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E61CA5D2159E85710092D386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E61CA5D4159E85710092D386 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E61CA5D8159E85710092D386 /* Jul5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jul5-Info.plist"; sourceTree = "<group>"; };
+		E61CA5DA159E85710092D386 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E61CA5DC159E85710092D386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E61CA5DE159E85710092D386 /* Jul5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul5-Prefix.pch"; sourceTree = "<group>"; };
+		E61CA5DF159E85710092D386 /* Jul5AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul5AppDelegate.h; sourceTree = "<group>"; };
+		E61CA5E0159E85710092D386 /* Jul5AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul5AppDelegate.m; sourceTree = "<group>"; };
+		E68FCC5315A493F6003267B1 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		E68FCC5415A493F6003267B1 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		E68FCC5715A4941A003267B1 /* PicView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicView0.h; sourceTree = "<group>"; };
+		E68FCC5815A4941A003267B1 /* PicView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicView0.m; sourceTree = "<group>"; };
+		E68FCC5A15A4943B003267B1 /* PicView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicView1.h; sourceTree = "<group>"; };
+		E68FCC5B15A4943B003267B1 /* PicView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicView1.m; sourceTree = "<group>"; };
+		E68FCC5D15A4944E003267B1 /* PicView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicView2.h; sourceTree = "<group>"; };
+		E68FCC5E15A4944E003267B1 /* PicView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicView2.m; sourceTree = "<group>"; };
+		E68FCC6015A49971003267B1 /* ButtonClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonClick.wav; sourceTree = "<group>"; };
+		E68FCC6115A49972003267B1 /* Kim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kim.jpg; sourceTree = "<group>"; };
+		E68FCC6215A49972003267B1 /* Mike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mike.jpg; sourceTree = "<group>"; };
+		E68FCC6315A49972003267B1 /* MikeAndKim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MikeAndKim.jpg; sourceTree = "<group>"; };
+		E68FCC6815A4998F003267B1 /* You're Still The One.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "You're Still The One.mp3"; sourceTree = "<group>"; };
+		E68FCC6A15A499C3003267B1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E68FCC6B15A499C4003267B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E68FCC6E15A49D7B003267B1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		E68FCC6F15A49D7B003267B1 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		E68FCC7015A49D7B003267B1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E68FCC7115A49D7B003267B1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E6C16A6115A5C22700CDD8C8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6C16A6215A5C22700CDD8C8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61CA5C9159E85710092D386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68FCC6C15A499C4003267B1 /* AudioToolbox.framework in Frameworks */,
+				E68FCC6D15A499C4003267B1 /* AVFoundation.framework in Frameworks */,
+				E61CA5D1159E85710092D386 /* UIKit.framework in Frameworks */,
+				E61CA5D3159E85710092D386 /* Foundation.framework in Frameworks */,
+				E61CA5D5159E85710092D386 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E61CA5C1159E85710092D386 = {
+			isa = PBXGroup;
+			children = (
+				E61CA5D6159E85710092D386 /* Jul5 */,
+				E61CA5CF159E85710092D386 /* Frameworks */,
+				E61CA5CD159E85710092D386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61CA5CD159E85710092D386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61CA5CC159E85710092D386 /* Jul5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61CA5CF159E85710092D386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E68FCC6A15A499C3003267B1 /* AudioToolbox.framework */,
+				E68FCC6B15A499C4003267B1 /* AVFoundation.framework */,
+				E61CA5D0159E85710092D386 /* UIKit.framework */,
+				E61CA5D2159E85710092D386 /* Foundation.framework */,
+				E61CA5D4159E85710092D386 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E61CA5D6159E85710092D386 /* Jul5 */ = {
+			isa = PBXGroup;
+			children = (
+				E61CA5DF159E85710092D386 /* Jul5AppDelegate.h */,
+				E61CA5E0159E85710092D386 /* Jul5AppDelegate.m */,
+				E68FCC5315A493F6003267B1 /* MainView.h */,
+				E68FCC5415A493F6003267B1 /* MainView.m */,
+				E68FCC5715A4941A003267B1 /* PicView0.h */,
+				E68FCC5815A4941A003267B1 /* PicView0.m */,
+				E68FCC5A15A4943B003267B1 /* PicView1.h */,
+				E68FCC5B15A4943B003267B1 /* PicView1.m */,
+				E68FCC5D15A4944E003267B1 /* PicView2.h */,
+				E68FCC5E15A4944E003267B1 /* PicView2.m */,
+				E6C16A6115A5C22700CDD8C8 /* Default.png */,
+				E6C16A6215A5C22700CDD8C8 /* Default@2x.png */,
+				E68FCC6E15A49D7B003267B1 /* Icon-72.png */,
+				E68FCC6F15A49D7B003267B1 /* Icon-72@2x.png */,
+				E68FCC7015A49D7B003267B1 /* Icon.png */,
+				E68FCC7115A49D7B003267B1 /* Icon@2x.png */,
+				E68FCC6815A4998F003267B1 /* You're Still The One.mp3 */,
+				E68FCC6015A49971003267B1 /* ButtonClick.wav */,
+				E68FCC6115A49972003267B1 /* Kim.jpg */,
+				E68FCC6215A49972003267B1 /* Mike.jpg */,
+				E68FCC6315A49972003267B1 /* MikeAndKim.jpg */,
+				E61CA5D7159E85710092D386 /* Supporting Files */,
+			);
+			path = Jul5;
+			sourceTree = "<group>";
+		};
+		E61CA5D7159E85710092D386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E61CA5D8159E85710092D386 /* Jul5-Info.plist */,
+				E61CA5D9159E85710092D386 /* InfoPlist.strings */,
+				E61CA5DC159E85710092D386 /* main.m */,
+				E61CA5DE159E85710092D386 /* Jul5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61CA5CB159E85710092D386 /* Jul5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61CA5E4159E85710092D386 /* Build configuration list for PBXNativeTarget "Jul5" */;
+			buildPhases = (
+				E61CA5C8159E85710092D386 /* Sources */,
+				E61CA5C9159E85710092D386 /* Frameworks */,
+				E61CA5CA159E85710092D386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jul5;
+			productName = Jul5;
+			productReference = E61CA5CC159E85710092D386 /* Jul5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61CA5C3159E85710092D386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jul5;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Abel / Noser Corp";
+			};
+			buildConfigurationList = E61CA5C6159E85710092D386 /* Build configuration list for PBXProject "Jul5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E61CA5C1159E85710092D386;
+			productRefGroup = E61CA5CD159E85710092D386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61CA5CB159E85710092D386 /* Jul5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61CA5CA159E85710092D386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61CA5DB159E85710092D386 /* InfoPlist.strings in Resources */,
+				E68FCC6415A49972003267B1 /* ButtonClick.wav in Resources */,
+				E68FCC6515A49972003267B1 /* Kim.jpg in Resources */,
+				E68FCC6615A49972003267B1 /* Mike.jpg in Resources */,
+				E68FCC6715A49972003267B1 /* MikeAndKim.jpg in Resources */,
+				E68FCC6915A4998F003267B1 /* You're Still The One.mp3 in Resources */,
+				E68FCC7215A49D7B003267B1 /* Icon-72.png in Resources */,
+				E68FCC7315A49D7B003267B1 /* Icon-72@2x.png in Resources */,
+				E68FCC7415A49D7B003267B1 /* Icon.png in Resources */,
+				E68FCC7515A49D7B003267B1 /* Icon@2x.png in Resources */,
+				E6C16A6315A5C22700CDD8C8 /* Default.png in Resources */,
+				E6C16A6415A5C22700CDD8C8 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61CA5C8159E85710092D386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61CA5DD159E85710092D386 /* main.m in Sources */,
+				E61CA5E1159E85710092D386 /* Jul5AppDelegate.m in Sources */,
+				E68FCC5515A493F6003267B1 /* MainView.m in Sources */,
+				E68FCC5915A4941A003267B1 /* PicView0.m in Sources */,
+				E68FCC5C15A4943B003267B1 /* PicView1.m in Sources */,
+				E68FCC5F15A4944E003267B1 /* PicView2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E61CA5D9159E85710092D386 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61CA5DA159E85710092D386 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E61CA5E2159E85710092D386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E61CA5E3159E85710092D386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61CA5E5159E85710092D386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul5/Jul5-Prefix.pch";
+				INFOPLIST_FILE = "Jul5/Jul5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E61CA5E6159E85710092D386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul5/Jul5-Prefix.pch";
+				INFOPLIST_FILE = "Jul5/Jul5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61CA5C6159E85710092D386 /* Build configuration list for PBXProject "Jul5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61CA5E2159E85710092D386 /* Debug */,
+				E61CA5E3159E85710092D386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61CA5E4159E85710092D386 /* Build configuration list for PBXNativeTarget "Jul5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61CA5E5159E85710092D386 /* Debug */,
+				E61CA5E6159E85710092D386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E61CA5C3159E85710092D386 /* Project object */;
+}
